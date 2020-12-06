@@ -7,8 +7,7 @@ export class Status extends React.Component {
                 <span>
                     {this.props.name}
                 </span>
-                <span>
-                    {this.props.status}
+                <span className="operational">
                 </span>
             </div>
         )
