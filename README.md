@@ -2,7 +2,7 @@
 
 Day 8: GitHub Status
 
-<!-- ![demo](./timer.gif) -->
+![demo picture](./ghstatus.png)
 
 ## Description
 Display the current GitHub Status.
@@ -12,5 +12,6 @@ The full description of the project can be found at [here](https://github.com/fl
 ## SPEC
 - HTML 5
 - SASS
+- axios (HTTPrequest)
 - React
   + [Create React App](https://github.com/facebook/create-react-app)
