@@ -1,0 +1,43 @@
+html {
+    background-color: #f6f8fa;
+    font-family: sans-serif;
+}
+
+#App {
+    display: block;
+    text-align: center;
+
+    header {
+        display: block;
+        margin-bottom: 18px;
+        font-size: 1.75em;
+        line-height: 2.3625rem;
+        font-weight: 500;
+    }
+
+    div#status-body {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+        color: #24292e;
+        width: 80%;
+        margin: 0 auto;
+
+        div {
+            display: flex;
+            width: 100%;
+
+            #status-type {
+                display: flex;
+                justify-content: space-between;
+                background-color: #fff;
+                padding: 1.1rem 1.25rem 1rem;
+                font-weight: 500;
+                font-size: 19px;
+                border: 0.3px solid rgba(0, 0, 0, 0.125);
+            }
+        }
+
+    }
+
+}
